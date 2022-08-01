@@ -1,28 +1,152 @@
-body {
 
   
-    /* background-color: blanchedalmond; */
-    background-image:url(assets/main-bg.jpg);
-    background-size:1440px 950px;
-    background-repeat:no-repeat ;
-    height: 1450px;
-
-.display-1 { 
-        width: 200px;
-        height: 200px;
-}
-
-.display-2 {
-        width: 200px;
-        height: 200px;
-      
- }
- 
-.btn btn-primary{
-        width: 900px;
-        height: 900px;
+#nav1{
+        padding: 0%;
    
 }
+ul {
+        list-style-type: none;
+        margin: 5px;
+        padding: 15px;
+        width: 1920px;
+        overflow: hidden;
+        background-color: #333;
+      }
+      
+li {
+        float: left;
+      }
+      
+ li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+      }
+      
+li a:hover:not(.active) {
+        background-color: #111;
+      }
+      
+ .active {
+        background-color: #04AA6D;
+      }
+  
+.main {
+        width: 100%;
+        height: 100vh;
+        background: no-repeat;
+        background-image: url(assets/main-bg.jpg);
+        background-size: cover;
+        background-position: center;       
+}
+
+h1{
+        position: absolute;
+        top: 30%;
+        width: 90%;
+        color: aliceblue;
+        text-align: center;
+        font-size: 100px;
+}
+
+h2{
+        position: absolute;
+        top: 40%;
+        width: 90%;
+        text-align: center;     
+}
+
+button{
+        position: absolute;
+        top: 50%;
+        width: 7%;
+        text-align: center;
+        background-color:#FFD700 ;
+        padding: 3px;
+        border-radius: 200px;
+}
+.main1{
+        width: 100%;
+        height: 100vh;
+        background: no-repeat;
+        background-image: url(assets/the-games-bg.jpg);
+        background-size: cover;
+        background-position: center;
+}
+.image1{
+        position: absolute;
+        top: 150%;
+        width: 50%;
+        text-align: center;
+        font-size: 18px;
+        padding: auto;
+      }
+
+.main2{
+        width: 100%;
+        height: 100vh;
+        background: no-repeat;
+        background-image: url(assets/features.jpg);
+        background-size: cover;
+        background-position: center;
+        text-align: center;
+        padding: 100px;
+        padding-top: 400px;
+}
+.main2 h6{
+        font-size: larger;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        color: bisque;   
+}
+ .main3 {
+        width: 100%;
+        height: 100vh;
+        background: no-repeat;
+        background-image: url(assets/requirements.png);
+        background-size: cover;
+        background-position: center;
+        padding: 100px;
+        padding-top: 400px;
+        position: absolute;
+        font-size: 18px;
+ }
+
+ .maiin h6 {
+       position: absolute;
+       top: 50%;
+       width: 30%;
+       color: #04AA6D;
+       font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+        
+ }
+ .main4{
+        width: 100%;
+        height: 100vh;
+        background: no-repeat;
+        background-image: url(assets/top-score-bg.png);
+        background-size: cover;
+        background-position: center;
+        padding: 100px;
+        padding-top: 400px;
+        position: absolute;
+        font-size: 18px;
+ }
+
+.main4 h6{
+        position: inherit;
+        top: auto;
+        
+}
+
+
+
+
+
+
+
+
 
 
 
